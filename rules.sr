@@ -1,0 +1,49 @@
+# RULES
+
+Rule "K"
+Match: [orth~"[.,]"];
+Eval:  word(qub, "Z");
+
+Rule "Z"
+Match: [orth~"[^\.]*"];
+Eval:  word(qub, "Z");
+
+Rule "DUZA"
+Match: [orth~"[A-ZŁÓŻŹŃĘĄ].*"];
+Eval:  word(qub, "DUZA");
+
+Rule "IMIE"
+Match: [orth~"[A-ZŁÓŻŹŃĘĄ]"] ns [orth~"\."];
+Eval:  word(qub, "IMIE");
+
+Rule "ENTK"
+Match: [orth~"[Pp]rof"] ns [orth~"\."];
+Eval:  word(qub, "ENTK");
+
+Rule "ENTK"
+Match: [orth~"[Dd]r"] ns [orth~"\."];
+Eval:  word(qub, "ENTK");
+
+Rule "ENTK"
+Match: [orth~"rtm"] ns [orth~"\."];
+Eval:  word(qub, "ENTK");
+
+Rule "ENT"
+Match: [orth~"profesor[a]+"];
+Eval:  word(qub, "ENT");
+
+Rule "ENT"
+Match: [orth~"abp"];
+Eval:  word(qub, "ENT");
+
+Rule "ENT"
+Match: [orth~"[Dd]r"];
+Eval:  word(qub, "ENT");
+
+Rule "ENTK"
+Match: [orth~"[Hh]ab"] ns [orth~"\."];
+Eval:  word(qub, "ENTK");
+
+Rule "M"
+Match: [orth~"-"];
+Eval:  word(qub, "M");
