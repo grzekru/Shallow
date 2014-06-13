@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# https://github.com/grzekru/Shallow
+
 import subprocess
 import codecs
 import re

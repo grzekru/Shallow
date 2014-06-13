@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cesAna SYSTEM "xcesAnaIPI.dtd">
+<cesAna version="1.0" type="spejd output">
+<chunkList>
+<chunk type="s">
+<syntok id="ab" rule="ENT">
+<orth>Dr</orth>
+<lex><base>ENT</base><ctag>qub</ctag></lex>
+<syntok id="a8" rule="DUZA">
+<orth>Dr</orth>
+<lex><base>DUZA</base><ctag>qub</ctag></lex>
+<syntok id="a6" rule="Z">
+<orth>Dr</orth>
+<lex><base>Z</base><ctag>qub</ctag></lex>
+<tok id="a1" string-range="string-range(p-1,0,2)">
+<orth>Dr</orth>
+</tok>
+</syntok>
+</syntok>
+</syntok>
+<syntok id="aa" rule="IMIE">
+<orth>M.</orth>
+<lex><base>IMIE</base><ctag>qub</ctag></lex>
+<syntok id="a9" rule="DUZA">
+<orth>M</orth>
+<lex><base>DUZA</base><ctag>qub</ctag></lex>
+<syntok id="a7" rule="Z">
+<orth>M</orth>
+<lex><base>Z</base><ctag>qub</ctag></lex>
+<tok id="a2" string-range="string-range(p-1,3,1)">
+<orth>M</orth>
+</tok>
+</syntok>
+</syntok>
+<ns/>
+<syntok id="a5" rule="K">
+<orth>.</orth>
+<lex><base>Z</base><ctag>qub</ctag></lex>
+<tok id="a4" string-range="string-range(p-1,4,1)">
+<orth>.</orth>
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</syntok>
+</syntok>
+</chunk>
+<chunk type="s">
+<syntok id="a1f" rule="DUZA">
+<orth>Grześkowiak</orth>
+<lex><base>DUZA</base><ctag>qub</ctag></lex>
+<syntok id="a17" rule="Z">
+<orth>Grześkowiak</orth>
+<lex><base>Z</base><ctag>qub</ctag></lex>
+<tok id="ac" string-range="string-range(p-1,6,11)">
+<orth>Grześkowiak</orth>
+</tok>
+</syntok>
+</syntok>
+<syntok id="a18" rule="Z">
+<orth>zajmuje</orth>
+<lex><base>Z</base><ctag>qub</ctag></lex>
+<tok id="ad" string-range="string-range(p-1,18,7)">
+<orth>zajmuje</orth>
+</tok>
+</syntok>
+<syntok id="a19" rule="Z">
+<orth>się</orth>
+<lex><base>Z</base><ctag>qub</ctag></lex>
+<tok id="ae" string-range="string-range(p-1,26,3)">
+<orth>się</orth>
+</tok>
+</syntok>
+<syntok id="a1a" rule="Z">
+<orth>obliczeniową</orth>
+<lex><base>Z</base><ctag>qub</ctag></lex>
+<tok id="af" string-range="string-range(p-1,30,12)">
+<orth>obliczeniową</orth>
+</tok>
+</syntok>
+<syntok id="a1b" rule="Z">
+<orth>teorią</orth>
+<lex><base>Z</base><ctag>qub</ctag></lex>
+<tok id="a10" string-range="string-range(p-1,43,6)">
+<orth>teorią</orth>
+</tok>
+</syntok>
+<syntok id="a1c" rule="Z">
+<orth>liczb</orth>
+<lex><base>Z</base><ctag>qub</ctag></lex>
+<tok id="a11" string-range="string-range(p-1,50,5)">
+<orth>liczb</orth>
+</tok>
+</syntok>
+<syntok id="a1d" rule="Z">
+<orth>i</orth>
+<lex><base>Z</base><ctag>qub</ctag></lex>
+<tok id="a12" string-range="string-range(p-1,56,1)">
+<orth>i</orth>
+</tok>
+</syntok>
+<syntok id="a1e" rule="Z">
+<orth>kryptologią</orth>
+<lex><base>Z</base><ctag>qub</ctag></lex>
+<tok id="a13" string-range="string-range(p-1,58,11)">
+<orth>kryptologią</orth>
+</tok>
+</syntok>
+<ns/>
+<syntok id="a16" rule="K">
+<orth>.</orth>
+<lex><base>Z</base><ctag>qub</ctag></lex>
+<tok id="a15" string-range="string-range(p-1,69,1)">
+<orth>.</orth>
+<lex disamb="1"><base>.</base><ctag>interp</ctag></lex>
+</tok>
+</syntok>
+</chunk>
+</chunkList>
+</cesAna>
