@@ -125,7 +125,7 @@ for line in input_stream:
 			check(orth[i],i)
 
 		if (i==0 and zasady[i] == "DUZA"):
-			if (orth[i] not in ["Profesor","Prezes","Prezydent","Dr","Dr.","Doktor"]):
+			if (orth[i] not in ["Profesor","Prezes","Prezydent","Dr","Dr.","Doktor","Magister"]):
 				zasady[i] = "Z"
 		#print(zasady[i])
 

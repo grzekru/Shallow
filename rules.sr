@@ -29,6 +29,10 @@ Match: [orth~"rtm"] ns [orth~"\."];
 Eval:  word(qub, "ENTK");
 
 Rule "ENT"
+Match: [orth~"[Mm]agister[a]+"];
+Eval:  word(qub, "ENT");
+
+Rule "ENT"
 Match: [orth~"profesor[a]+"];
 Eval:  word(qub, "ENT");
 
